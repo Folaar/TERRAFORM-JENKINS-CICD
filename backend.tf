@@ -3,6 +3,6 @@ terraform {
     bucket         = "folasbucks"   #change name
     key            = "my-terraform-environment/main"
     region         = "us-east-1"
-    dynamodb_table = "mrcloudbook-dynamo-db-table"
+    dynamodb_table = "mytable"
   }
 }
