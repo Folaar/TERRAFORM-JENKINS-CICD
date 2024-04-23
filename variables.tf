@@ -12,7 +12,7 @@ variable "instance_type" {
 }
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-0f5ee92e2d63afc18"
+  default     = "ami-080e1f13689e07408"
 }
 variable "bucketname" {
   description = "The name of the S3 bucket to create"
