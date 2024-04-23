@@ -5,5 +5,5 @@ resource "aws_s3_bucket" "example_bucket" {
     enabled = true
   }
 
-  acl = public-read
+  acl = "public-read"
 }
