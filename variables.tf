@@ -19,7 +19,4 @@ variable "bucketname" {
   type        = string
   default     = "folassbucket"  #change Bucket name also
 }
-variable "acl" {
-  description = "Access Control List for the S3 bucket"
-  default     = "public-read"  # Change ACL configuration here if needed
-}
+
