@@ -28,7 +28,7 @@ resource "aws_s3_bucket_acl" "example" {
     aws_s3_bucket_ownership_controls.example,
     aws_s3_bucket_public_access_block.example,
   ]
-  bucket = aws_s3_bucket.mybucket.id
+  bucket = "folasbucket"
 }
 
 # Upload index.html to S3 bucket
